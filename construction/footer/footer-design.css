@@ -1,0 +1,71 @@
+.footer-container{
+	display: flex;
+	width: 100%;
+	height:300px;
+	position: relative;
+	bottom: 0;
+	margin-top: 50px;
+}
+.footer-left{
+	width: 39.6%;
+	background-color: #0D5E5E;
+}
+.logo-footer{
+	margin-left: 22.1%;
+  height: 40px;
+  margin-top: 38px;
+ 	cursor: pointer;
+}
+.footer-slogan{
+	color: white;
+	margin-left: 22.1%;
+	margin-top: 20px;
+	width: 60%;
+	font-size: 13px;
+}
+.footer-right{
+	width: 60.4%;
+	background-color: #1C7575;
+	display: flex;
+	position: relative;
+}
+.footer-nav{
+	margin-left: 9.2%;
+	margin-top: 61px;
+	width: 400px;
+	display: flex;
+	color: white;
+}
+.footer-nav-text{
+	margin-right: 6%;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 15px;
+}
+.footer-reflection{
+	font-size: 12px;
+	color: white;
+	display: flex;
+	position: absolute;
+	bottom: 75px;
+	right:  14.49%;
+}
+.reflection-text{
+	cursor: pointer;
+}
+.reflection-text:hover{
+	color: #ddd;
+}
+
+.footer-bottom{
+	background-color: black;
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	bottom: 0;
+	color: white;
+	text-align: center;
+	box-sizing:border-box;
+	padding: 12.5px;
+	font-size: 12px;
+}
