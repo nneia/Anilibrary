@@ -1,0 +1,11 @@
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+  <style>
+    .st2{fill:#fff;stroke:#fff;stroke-width:.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}
+  </style>
+  <path d="M77.6 52.6c17-12.5 18.2-22.7 18.2-22.7V15.1H32.2v14.8s1.1 10.2 18.2 22.7c0 0 8 6.8 8 11.4 0 0 0 5.7-8 11.4 0 0-18.2 15.9-18.2 23.9v14.8h63.6v-15c0-8-18.2-23.9-18.2-23.9-8-5.7-8-11.4-8-11.4.1-4.4 8-11.2 8-11.2z" fill="none" stroke="#000" stroke-width="4" stroke-miterlimit="10"/>
+  <path d="M87.3 38.4s-25 3.4-28.4 2.3c-3.4-1.1-17-2.3-17-2.3s6.8 9.1 12.5 12.5c5.7 3.4 8 12.5 8 12.5s0 1.1 1.1 1.1 2.3-1.1 2.3-1.1 5.7-12.5 12.5-15.9c-.1 0 7.9-5.7 9-9.1" fill="#666" stroke="#666" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+  <path class="st2" d="M51.5 43.5S64 53.7 64 57.1c0 0 0-1.1 2.3-2.3 0 0-6.8-9.1-10.2-11.4h-4.6z"/>
+  <path d="M64 92.3c-10.2 0-27.3 9.1-27.3 9.1v8h54.6v-8S74.2 92.3 64 92.3z" fill="#666" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"/>
+  <path class="st2" d="M40.1 106v-2.3s11.4-6.8 22.7-8h3.4s-21.6 5.7-21.6 8v2.3h-4.5z"/>
+  <path d="M98.6 15.1H29.4c-2.2 0-4-1.8-4-4V10c0-2.2 1.8-4 4-4h69.2c2.2 0 4 1.8 4 4v1.1c0 2.2-1.8 4-4 4zM98.6 123H29.4c-2.2 0-4-1.8-4-4v-1.1c0-2.2 1.8-4 4-4h69.2c2.2 0 4 1.8 4 4v1.1c0 2.2-1.8 4-4 4z"/>
+</svg>

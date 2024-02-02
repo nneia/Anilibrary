@@ -1,0 +1,8 @@
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+  <style>
+    .st0,.st1{fill:none;stroke:#000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}.st1{fill:#fff}
+  </style>
+  <path class="st0" d="M13 27.9l51.5 51.5L116 27.9z"/>
+  <path class="st1" d="M13 27.9V72l22.1-22zM116 27.9V72L93.9 50z"/>
+  <path class="st0" d="M13 72v28.1h103V72"/>
+</svg>

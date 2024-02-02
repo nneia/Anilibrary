@@ -1,0 +1,9 @@
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+  <style>
+    .st1{fill:#263b42}
+  </style>
+  <path id="Path_109" d="M8 64l11 37c1 3 4 5 7 5h90c2 0 4-2 4-5 0 0 0 0 0 0V64h0V26c0-3-2-5-4-5v1H26c-3-1-6 1-7 4L8 64z" fill="none" stroke="#263b42" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle id="Ellipse_49-2" class="st1" cx="38.2" cy="63.8" r="5.9"/>
+  <circle id="Ellipse_50-2" class="st1" cx="66.2" cy="63.8" r="5.9"/>
+  <circle id="Ellipse_51-2" class="st1" cx="94.3" cy="63.8" r="5.9"/>
+</svg>
