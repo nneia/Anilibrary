@@ -1,0 +1,883 @@
+@import "../construction/menu/menu-style.css";
+@import "../construction/footer/footer-design.css";
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: clearsans_semibold;
+  text-rendering: normal;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: none;
+  outline: none;
+}
+.rotate {
+  transform: rotate(180deg) !important;
+}
+.vote-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 1px solid #f1f1f1;
+  border-top: 0;
+}
+.vote-value {
+  border-radius: 4px;
+  padding: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #2e2e2e;
+  margin-top: 7px;
+  font-family: arial;
+  cursor: default;
+}
+
+.seasons-container {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 70px;
+  padding-left: 8.753%;
+  padding-right: 8.753%;
+  background-color: #f6f6f6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+}
+.seasons-header {
+  font-size: 16px;
+  background-color: white;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  border: 1px solid #f1f1f1;
+
+  margin-top: 2px;
+  margin-right: 38%;
+
+  color: #c32e2e;
+}
+.seasons-select {
+  width: 50%;
+  position: relative;
+  right: 0;
+  box-sizing: border-box;
+
+  color: black;
+  display: flex;
+}
+.season {
+  position: relative;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 11px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #f1f1f1;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: white;
+}
+.season:hover {
+  color: #c32e2e;
+}
+
+.dropicon {
+  position: absolute;
+  right: 20px;
+  margin-top: -2px;
+}
+
+.vote-panel-hint {
+  display: block;
+  margin-top: 20px;
+  width: 82.494%;
+  margin-left: 8.753%;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid #f1f1f1;
+  color: #b2b2b2;
+  text-align: center;
+  font-size: 14px;
+}
+.vote-panel-container {
+  display: block;
+  position: relative;
+  border: 1px solid #f1f1f1;
+  background-color: #f8f8f8;
+  width: 82.494%;
+  margin-left: 8.753%;
+  margin-right: 8.753%;
+  box-sizing: border-box;
+  padding: 30px;
+  z-index: 1;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.vote-panel-img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.list-container {
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  overflow: scroll;
+  position: relative;
+  z-index: 3;
+}
+.list-container::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+.list-container::-webkit-scrollbar-track {
+  background: #f6f6f6;
+}
+.list-container::-webkit-scrollbar-thumb {
+  background: #b2b2b2;
+  border-radius: 2px;
+}
+.anime-vote-box {
+  display: flex;
+  background-color: white;
+  position: relative;
+  border: 1px solid #ddd;
+  margin-bottom: 7px;
+  width: 99%;
+  border-radius: 4px;
+}
+.anime-vote-title {
+  font-size: 15px;
+  width: 81%;
+  margin-left: 3%;
+  margin-top: 1px;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-right: 1px solid #ddd;
+}
+.anime-position {
+  font-weight: bold;
+  color: #b2b2b2;
+  margin: 0;
+  margin-right: 10px;
+  position: absolute;
+  top: 54%;
+  left: 20px;
+  transform: translate(-50%, -50%);
+  height: 22px;
+  font-size: 15px;
+}
+.anime-pos-votes {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  width: 14%;
+  right: -6%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+}
+.p-vote {
+  height: 15px;
+  fill: #2e2e2e;
+  padding: 8px;
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+.anime-pos-votes-value {
+  border-radius: 4px;
+  padding: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: helvetica;
+  margin-top: 4px;
+  margin-left: 35px;
+  margin-right: 35px;
+  color: #707070;
+}
+.p-vote:hover {
+  background-color: #ddd;
+}
+
+.search-container {
+  width: 82.494%;
+  margin-left: 8.753%;
+  background-color: #f6f6f6;
+  border: #f1f1f1;
+  margin-top: 25px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 25px;
+}
+.search-box {
+  width: 70%;
+  background-color: white;
+  display: flex;
+  position: relative;
+}
+.search-icon {
+  width: 16px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.search-inp {
+  width: 100%;
+  padding: 8px;
+  padding-left: 42px;
+  padding-right: 12px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: clearsans_semibold;
+}
+
+.genres-container {
+  margin-left: 20px;
+}
+.genre-btn {
+  padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 14px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.genre-icon {
+  margin-left: 30px;
+}
+.genre-btn:hover {
+  color: #c32e2e;
+}
+.search-inp:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.ongoings-header {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.ongoings-container {
+  width: 84.694%;
+  margin-left: 8.753%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.favorite-anime-box {
+  display: block;
+  position: relative;
+  margin-right: 2.32%;
+  margin-bottom: 2.32%;
+  width: 131px;
+  cursor: pointer;
+}
+.container-first-obj-counter {
+  margin-left: -40px;
+  color: #b2b2b2;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.zoom-in {
+  width: 100%;
+  height: 187.7px;
+  display: block;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+.full-view-btn {
+  font-size: 10px;
+  font-weight: bold;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 5px;
+  justify-content: center;
+  z-index: 103;
+  opacity: 0;
+  border-radius: 1px;
+  cursor: pointer;
+  transition: 150ms;
+}
+.anime-cover-ongoing {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: 350ms;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.to-list-box {
+  width: 100%;
+  height: 32px;
+  bottom: -32px;
+  position: absolute;
+  opacity: 0.6;
+  transition: 350ms;
+  background-color: black;
+  z-index: 3;
+}
+.to-list-button {
+  color: white;
+  font-size: 12px;
+  bottom: -32px;
+  position: absolute;
+  transition: 350ms;
+  width: 100%;
+  text-transform: uppercase;
+  z-index: 3;
+}
+.fav-val-box {
+  width: 80px;
+  height: 16.8px;
+  position: absolute;
+  align-self: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10px;
+  background-color: #2e2e2e;
+  z-index: 3;
+  opacity: 0;
+  transition: 350ms;
+}
+.fav-value {
+  font-size: 12px;
+  width: 80px;
+  position: absolute;
+  align-self: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10px;
+  color: white;
+  z-index: 4;
+  opacity: 0;
+  transition: 350ms;
+}
+.full-view-text {
+  color: black;
+  position: relative;
+  z-index: 102;
+}
+.full-view-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 101;
+  transition: 150ms;
+  border-radius: 1px;
+}
+.anime-title-box-ongoing {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  overflow: hidden;
+  max-height: 80px;
+}
+.anime-title-ongoing {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 15px;
+  line-height: 21px;
+  position: relative;
+  z-index: 2;
+}
+.anime-title-ongoing:hover {
+  color: #b2b2b2;
+}
+.zoom-in:hover .fav-value {
+  opacity: 1;
+}
+.zoom-in:hover .fav-val-box {
+  opacity: 0.6;
+}
+.favorite-anime-box:hover .to-list-button {
+  bottom: 7px;
+}
+.favorite-anime-box:hover .to-list-box {
+  bottom: 0px;
+}
+.full-view-btn:hover .full-view-background {
+  opacity: 1;
+}
+.zoom-in:hover .full-view-btn {
+  opacity: 1;
+}
+.to-list-button:hover {
+  color: #b2b2b2;
+  transition: 0ms;
+  cursor: pointer;
+}
+
+.selector-container {
+  width: 82.494%;
+  margin-left: 8.753%;
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+}
+.page-switch-box {
+  width: 100%;
+  border-bottom: 1.2px solid #ddd;
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+}
+.page-number-box {
+  width: 5.6%;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.page-number-value {
+  font-size: 14px;
+  color: #b2b2b2;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.current-page {
+  color: #2e2e2e !important;
+}
+.current-underbar {
+  background-color: #c32e2e;
+}
+.page-underbar {
+  width: 100%;
+  height: 8px;
+}
+.spacer {
+  margin-right: 30px;
+  letter-spacing: 2px;
+  cursor: default;
+}
+.page-number-value {
+  font-size: 14px;
+  color: #b2b2b2;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.view-switch {
+  width: 25%;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+.view-btn {
+  margin-top: 12px;
+  color: black;
+}
+.view-switch:hover .view-btn {
+  opacity: 0.4;
+}
+
+.reflection-container {
+  width: 82.494%;
+  margin-left: 8.753%;
+  display: flex;
+  margin-top: 50px;
+}
+.reflection-block-1 {
+  width: 70%;
+}
+.reflection-block-2 {
+  width: 30%;
+  margin-left: 25px;
+}
+.new-comment-hint {
+  font-size: 12px;
+  cursor: default;
+  display: flex;
+}
+.comment-as-img {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  margin-top: 2px;
+  margin-right: 5px;
+  margin-left: 8px;
+}
+.comment-author {
+  text-decoration: underline;
+  color: #c32e2e;
+}
+.new-comment-box {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+.comment-text-area {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 16px;
+  color: #2e2e2e;
+  border: none;
+  outline: none;
+  font-family: clearsans_semibold;
+  resize: none;
+  border-radius: 4px;
+}
+.comment-panel {
+  display: flex;
+  padding: 15px;
+  padding-right: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  position: relative;
+}
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #2e2e2e;
+  background-color: #;
+  padding: 2px;
+  padding-top: 2px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.bold {
+  cursor: pointer;
+  color: #2e2e2e;
+  background-color: #;
+  padding: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.italic {
+  border-radius: 2px;
+  cursor: pointer;
+  color: #2e2e2e;
+  background-color: #;
+  padding: 2px;
+  padding-left: 7px;
+  padding-right: 9px;
+  margin-right: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-style: italic;
+}
+.comment-btn {
+  font-size: 13px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background-color: #c32e2e;
+  color: white;
+  transition: 150ms;
+}
+.comments-panel {
+  display: flex;
+  margin-top: 40px;
+}
+.comments-icon {
+  height: 19px;
+  margin-right: 10px;
+}
+.comments-number {
+  font-size: 14px;
+  margin-right: 25px;
+  font-weight: bold;
+  cursor: default;
+}
+.comments-container {
+  margin-top: 20px;
+}
+.comment-box {
+  margin-bottom: 15px;
+  display: flex;
+  position: relative;
+}
+.comment-sidebar {
+  width: 5% !important;
+  margin-right: 15px;
+  position: relative;
+}
+.comment-user-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  border: 4px solid white;
+}
+.sidebar-border {
+  height: 100%;
+  background-color: #ddd;
+  width: 3px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.user-info {
+  display: flex;
+  margin-top: 3px;
+}
+.user-nickname {
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.time {
+  font-size: 12px;
+  margin-top: 0px;
+  color: #707070;
+  cursor: default;
+}
+.rate-comment-box {
+  display: flex;
+  margin-left: 15px;
+}
+.vote-comment-icon {
+  height: 12px;
+  border-radius: 2px;
+  padding: 3px;
+  fill: none;
+  stroke: #707070;
+  stroke-width: 20;
+  stroke-miterlimit: 10;
+  cursor: pointer;
+}
+.comment-rating-value {
+  margin-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  margin-top: 0.5px;
+  color: #707070;
+}
+.comment-text {
+  margin-top: 5px;
+  font-size: 16px;
+  cursor: default;
+}
+.comment-replies-container {
+  display: block;
+  margin-top: 10px;
+}
+.reply-actions {
+  display: flex;
+}
+.replies-btn {
+  font-size: 12px;
+  cursor: pointer;
+  color: #4285f4;
+  max-width: 112px;
+}
+.replies-val {
+  max-width: 112px;
+}
+.reply-btn {
+  margin-left: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #4285f4;
+}
+.new-reply-container {
+  display: none;
+  position: relative;
+  margin-top: 10px;
+}
+.comment-sidebar {
+  width: 3%;
+  margin-right: 15px;
+  position: relative;
+}
+.reply-user-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  border: 4px solid white;
+}
+.reply-sidebar-border {
+  height: 100%;
+  background-color: #ddd;
+  width: 3px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.reply-new-comment-box {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.reply-comment-text-area {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  font-size: 15px;
+  color: #2e2e2e;
+  border: none;
+  outline: none;
+  font-family: clearsans_semibold;
+}
+.replies-container {
+  margin-top: 5px;
+  position: relative;
+  display: none;
+}
+.sidebar-hint-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #f1f1f1;
+  background-color: #f6f6f6;
+  border-radius: 4px;
+}
+.reflection-header {
+  color: #c32e2e;
+}
+.reflection-hint {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #b2b2b2;
+}
+.current-online-box {
+  display: flex;
+  color: #4cbb17;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.online-icon {
+  background-color: #4cbb17;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  margin-top: 7.5px;
+  margin-right: 5px;
+}
+.online-text {
+  margin-right: 5px;
+}
+.sidebar-ad {
+  width: 100%;
+  height: 200px;
+  background-color: #f6f6f6;
+  margin-top: 25px;
+  position: sticky;
+  top: 102px;
+}
+.ad-hint {
+  position: absolute;
+  top: -12px;
+  font-size: 10px;
+  color: #2e2e2e;
+}
+
+.page-number-box:hover .page-number-value {
+  color: #2e2e2e;
+}
+.new-comment-box:hover {
+  border-color: #b2b2b2;
+}
+.link:hover {
+  background-color: #ddd;
+}
+.bold:hover {
+  background-color: #ddd;
+}
+.italic:hover {
+  background-color: #ddd;
+}
+.comment-btn:hover {
+  background-color: #b2b2b2;
+}
+.vote-comment-icon:hover {
+  background-color: #ddd;
+}
+.user-nickname:hover {
+  color: #b2b2b2;
+}
+.replies-btn:hover {
+  color: #b2b2b2;
+}
+.reply-btn:hover {
+  color: #b2b2b2;
+}
