@@ -8,7 +8,7 @@
 	<? require '../construction/fonts/fonts.php'; ?>
 	<? require '../construction/menu/menu.php'; ?>
 </head>
-<body>
+<body id="body">
 
 	<p class="header">All Time Favourites</p>
 	<p class="header-hint">This list is arranged in accordance with how many people marked anime as their favourite.</p>
@@ -33,300 +33,711 @@
 
 	<div class="fav-container">
 
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
 		
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/friren.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
+			
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php">Frieren: Beyond Journey's End</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/brotherhood.png" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
+			
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Fullmetal Alchemist: Brotherhood</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/steins.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
+			
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Steins Gate</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/gintama.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Gintama (S4)</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/attack.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Attack on Titan (S3P2)	</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/hunter.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Hunter x Hunter</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/monster.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Monster</a>
+				</p>
 			</div>
 		</div>
 
 		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">9</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/asilentvoice.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
+			
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> A Silent Voice</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">10</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/yourname.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Your Name</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">10</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/mob.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Mob Psycho 100 II</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">28</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/hajime.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php">Fighting Spirit</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/cowboy-bebop.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
 		
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Cowboy Bebop</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/code-geass.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
+			
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Code Geass: Lelouch of the rebellion </a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/mushoku.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
+			
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Jobless Reincarnation (S2)</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/jujutsu.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Jujutsu Kaisen (S2)</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/kingdom.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Kingdom</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">19</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/clannad.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Clannad: After Story</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">19</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/bochi.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Bocchi the Rock!</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">19</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/tokyoghoul.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Tokyo Ghoul</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/fairytail.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Fairytail</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/psychopass.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Psychopass</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/onmyoji.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Twin Star Onmyogi</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/oawrinoseraph.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Seraph of the End</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/voleyball.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Voleyball</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/noragami.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Noragami</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/souleater.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Soul Eater</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">28</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/jormungand.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Jormungand</a>
+				</p>
 			</div>
 		</div>
 
 		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">17</p>
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/tensei-shitara-cover.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
+			
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> That Time I was Reincarnated as a Slime</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/demonslayer.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Demon Slayer</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/gargantia.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Gargantia on the Verdous Planet</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/assasionationclassroom.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Assasionation Classroom</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/isekai-quartet.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Isekai Quartet</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/drstone.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Dr. Stone</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/guilty-crown.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Guilty Crown</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/mirainikki.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Future Diary</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
@@ -336,254 +747,18 @@
 				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
+				
 			</div>
+			
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php">
+						Made in Abyss
+					</a>
+				</p>
 			</div>
 		</div>
 		
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">25</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				<div class="fav-val-box"></div>
-				<p class="fav-value">1899</p>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
 
 	</div>
 	<div class="selector-container">
@@ -706,14 +881,61 @@
 		</div>
 	</div>
 
+	<div id="infoModalContainer">
+			
+	</div>
 
 	
 	<? require '../construction/footer/footer.php';?>
 
-	<script src ="../common-comands.js"></script>
-	<script>
 
-
+	<!-- preview -->
+	<script id="animeInfoFull" type="text/x-handlebars-template">
+			<div class="anime-info-modal">
+				<div class="avg">
+		
+					<p class="avg-value good">8.7</p>
+					<p class="avg-text">AVG</p>
+				</div>
+				<div class="close-btn">
+					<svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+						<g stroke-width="25">
+							<path d="M11 10l107 108"></path>
+							<path d="M11 118L118 10" opacity=".9"></path>
+						</g>
+					</svg>
+					<p class="close-text">Close</p>
+				</div>
+				<p class="preview-header">Preview</p>
+				<div class="info-block-full">
+					<img src="../construction/images/anime covers/arslan-senki-cover.jpg" alt="" class="block-image">
+					<div class="block-info">
+						<p class="i-anime-title"><a href="http://anilibrary/anime%20page/anime.php">Arslan Senki</a></p>
+						<div class="i-anime-information">
+							<div class="i-anime-stats">
+								<div class="i-stats-title">Status:<p class="i-title-text highlight-fin" id="animeStatus">Finished</p></div>
+								<div class="i-stats-title">Episodes:<p class="i-title-text" id="episodes">24/24(TV)</p></div>
+								<div class="i-stats-title">Year:<p class="i-title-text" id="year">2020</p></div>
+								<div class="i-stats-title">Studio:<p class="i-title-text studio" id="studio"><a href="http://anilibrary/anime%20page/studio.php">A-1 Pictures</a></p></div>		
+								<div class="i-stats-title">Author(s):<p class="i-title-text" id="author">Goro Taniguchi, Ichiro Okouchi</p></div>
+							</div>
+							<div class="box-anime-genres">
+								<p class="genre">Historical</p>
+								<p class="genre">Adventures</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="info-desc">In the prosperous kingdom of Pars lies the Royal Capital of Ecbatana, a city of splendor and wonder, ruled by the undefeated and fearsome King Andragoras. Arslan is the young and curious prince of Pars who, despite his best efforts, doesn't seem to have what it takes to be a proper king like his father.<br><br> At the age of 14, Arslan goes to his first battle and loses everything as the blood-soaked mist of war gives way to scorching flames, bringing him to face the demise of his once glorious kingdom. However, it is Arslan's destiny to be a ruler, and despite the trials that face him, he must now embark on a journey to reclaim his fallen kingdom.</p>
+				<iframe class="preview-trailer" src="https://www.youtube.com/embed/AiEXHQ8I1Os" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<a href="http://anilibrary/anime%20page/anime.php"><p class="read-more-btn">More</p></a>
+			</div>
 	</script>
+
+	<script src ="../common-comands.js"></script>
+
+	<script src="../js/seasons.js"></script>
+	<script src="js/handlebars-v4.7.6.js"></script>
+	
 </body>
 </html>
