@@ -8,7 +8,7 @@
 	<? require '../construction/fonts/fonts.php'; ?>
 	<? require '../construction/menu/menu.php'; ?>
 </head>
-<body>
+<body id="body">
 	
 	<div class="seasons-container">
 		<p class="seasons-header">Anime seasons</p>
@@ -51,6 +51,7 @@
 	<div class="ongoings-container">
 
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
@@ -63,55 +64,63 @@
 				
 			</div>
 			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+				<svg class="p-vote post-up post-clicked-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
 					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
 					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
 				</svg>
-				<p class="vote-value">12.3k</p>
+				<p class="vote-value score-clicked-up">12.3k</p>
 				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
 					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
 					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php">
+						Made in Abyss
+					</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/code-geass.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
 			</div>
 			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+				<svg class="p-vote post-up post-clicked-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
 					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
 					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
 				</svg>
-				<p class="vote-value">12.3k</p>
+				<p class="vote-value score-clicked-up">12.3k</p>
 				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
 					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
 					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php">Code Geass: Lelouch of the rebellion</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/boruto-cover.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -121,24 +130,27 @@
 					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
 					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
 				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+				<p class="vote-value score-clicked-down">12.3k</p>
+				<svg class="p-vote post-down rotate post-clicked-down" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
 					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
 					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Boruto: Naruto Next Generations</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/cowboy-bebop.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -155,17 +167,20 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Cowboy Bebop</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/gate-cover.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -182,17 +197,20 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> GATE: Where JSDF Fought</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/kaguyasama.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -209,17 +227,20 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Kaguya-sama: Love is War (S2)</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/kingdom.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -236,17 +257,20 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Kingdom (S3)</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/voleyball.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -263,559 +287,21 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
-			</div>
-		</div>
-		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
-			<div class="zoom-in">
-				<div class="full-view-btn">
-					<p class="full-view-text">P</p>
-					<div class="full-view-background"></div>
-				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
-				<div class="to-list-box"></div>
-				<p class="to-list-button">+Add to list</p>
-				
-			</div>
-			<div class="vote-box">
-				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-				<p class="vote-value">12.3k</p>
-				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
-					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
-					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
-				</svg>
-			</div>
-			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Haikyu!! To the Top</a>
+				</p>
 			</div>
 		</div>
 
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/isekai-quartet.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -832,17 +318,20 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Isekai Quartet</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
-			<p class="container-first-obj-counter">1</p>
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">10</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/dorohedoro.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -859,17 +348,20 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Dorohedoro</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/sao2.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -886,17 +378,20 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Sword Art Online: Alicization - War of Underworld (S2)</a>
+				</p>
 			</div>
 		</div>
 		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
 			<p class="container-first-obj-counter">1</p>
 			<div class="zoom-in">
 				<div class="full-view-btn">
 					<p class="full-view-text">P</p>
 					<div class="full-view-background"></div>
 				</div>
-				<img src="../construction/images/anime covers/made-in-abyss.jpg" alt="" class="anime-cover-ongoing">
+				<img src="../construction/images/anime covers/oregairu.jpg" alt="" class="anime-cover-ongoing">
 				<div class="to-list-box"></div>
 				<p class="to-list-button">+Add to list</p>
 				
@@ -913,7 +408,730 @@
 				</svg>
 			</div>
 			<div class="anime-title-box-ongoing">
-				<p class="anime-title-ongoing">Made in Abyss</p>
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> My Teen Romantic Comedy SNAFU Climax!</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/akamegakill-cover.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Akame ga Kill</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/souleater.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Soul Eater</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/mob.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Mob Phycho 100</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/monster.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Monster</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/Vinland Saga.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Vinland Saga</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">19</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/mushoku.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Reincarnation of Jobless</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">19</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/overlord4.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Overlord (S4)</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">19</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/tokyoghoul.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Tokyo Ghoul</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/jujutsu.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Jujutsu Kaisen</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/psychopass.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Psychopass</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/onmyoji.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Twin Star Onmyogi</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/oawrinoseraph.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Seraph of the End</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/voleyball.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Voleyball</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/noragami.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Noragami</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/gintama.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Gintama</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">28</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/jormungand.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Jormungand</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/hajime.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> First Step</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/clannad.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Clannad</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/gargantia.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Gargantia on the Verdous Planet</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/assasionationclassroom.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Assasionation Classroom</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/brotherhood.png" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Fullmetal Alchemist: Brotherhood</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/drstone.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Dr. Stone</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/guilty-crown.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Guilty Crown</a>
+				</p>
+			</div>
+		</div>
+		<div class="favorite-anime-box">
+			<a class="anime-link" href="../anime page/anime.php"> </a>
+			<p class="container-first-obj-counter">1</p>
+			<div class="zoom-in">
+				<div class="full-view-btn">
+					<p class="full-view-text">P</p>
+					<div class="full-view-background"></div>
+				</div>
+				<img src="../construction/images/anime covers/bochi.jpg" alt="" class="anime-cover-ongoing">
+				<div class="to-list-box"></div>
+				<p class="to-list-button">+Add to list</p>
+				
+			</div>
+			<div class="vote-box">
+				<svg class="p-vote post-up" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+				<p class="vote-value">12.3k</p>
+				<svg class="p-vote post-down rotate" version="1.1" id="РЎР»РѕР№_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" xml:space="preserve">
+					<path id="Polygon_5" d="M60 4c2-3 6-3 9-1v1l50 54a6 6 0 01-5 11H15a6 6 0 01-5-11L60 4z"></path>
+					<path id="Rectangle_618" d="M39 63h51v64H39z"></path>
+				</svg>
+			</div>
+			<div class="anime-title-box-ongoing">
+				<p class="anime-title-ongoing">
+					<a href="../anime page/anime.php"> Bocchi the Rock</a>
+				</p>
 			</div>
 		</div>
 		
@@ -951,7 +1169,7 @@
 
 	<div class="reflection-container">
 		<div class="reflection-block-1">
-			<div class="new-comment-hint"> Comment as: <img src="../construction/images/users cover/Condomer.jpg" alt="" class="comment-as-img"> <span class="comment-author">Condomer</span></div>
+			<div class="new-comment-hint"> Comment as: <img src="../construction/images/users cover/Condomer.jpg" alt="" class="comment-as-img"> <span class="comment-author">Neiaaa</span></div>
 			<div class="new-comment-box" id="write-comment-box">
 				<textarea class="comment-text-area" name="" id="write-comment-area" cols="30" rows="4" placeholder="Write a comment"></textarea>
 				<div class="comment-panel" id="write-comment-panel">
@@ -997,7 +1215,7 @@
 
 							</div>
 						</div>
-						<p class="comment-text">This is so good.</p>
+						<p class="comment-text"> This season we got many good titles</p>
 						<div class="comment-replies-container">
 							<div class="reply-actions">
 								<p class="replies-btn"> Show Replies <span class="replies-val">34 ⯆</span> </p>
@@ -1039,10 +1257,62 @@
 			</div>
 		</div>
 	</div>
+	
+
+	<div id="infoModalContainer">
+			
+	</div>
 
 	<? require '../construction/footer/footer.php';?>
-	<script>
 
+	<!-- preview -->
+	<script id="animeInfoFull" type="text/x-handlebars-template">
+			<div class="anime-info-modal">
+				<div class="avg">
+		
+					<p class="avg-value good">8.7</p>
+					<p class="avg-text">AVG</p>
+				</div>
+				<div class="close-btn">
+					<svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+						<g stroke-width="25">
+							<path d="M11 10l107 108"></path>
+							<path d="M11 118L118 10" opacity=".9"></path>
+						</g>
+					</svg>
+					<p class="close-text">Close</p>
+				</div>
+				<p class="preview-header">Preview</p>
+				<div class="info-block-full">
+					<img src="../construction/images/anime covers/arslan-senki-cover.jpg" alt="" class="block-image">
+					<div class="block-info">
+						<p class="i-anime-title"><a href="http://anilibrary/anime%20page/anime.php">Arslan Senki</a></p>
+						<div class="i-anime-information">
+							<div class="i-anime-stats">
+								<div class="i-stats-title">Status:<p class="i-title-text highlight-fin" id="animeStatus">Finished</p></div>
+								<div class="i-stats-title">Episodes:<p class="i-title-text" id="episodes">24/24(TV)</p></div>
+								<div class="i-stats-title">Year:<p class="i-title-text" id="year">2020</p></div>
+								<div class="i-stats-title">Studio:<p class="i-title-text studio" id="studio"><a href="http://anilibrary/anime%20page/studio.php">A-1 Pictures</a></p></div>		
+								<div class="i-stats-title">Author(s):<p class="i-title-text" id="author">Goro Taniguchi, Ichiro Okouchi</p></div>
+							</div>
+							<div class="box-anime-genres">
+								<p class="genre">Historical</p>
+								<p class="genre">Adventures</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="info-desc">In the prosperous kingdom of Pars lies the Royal Capital of Ecbatana, a city of splendor and wonder, ruled by the undefeated and fearsome King Andragoras. Arslan is the young and curious prince of Pars who, despite his best efforts, doesn't seem to have what it takes to be a proper king like his father.<br><br> At the age of 14, Arslan goes to his first battle and loses everything as the blood-soaked mist of war gives way to scorching flames, bringing him to face the demise of his once glorious kingdom. However, it is Arslan's destiny to be a ruler, and despite the trials that face him, he must now embark on a journey to reclaim his fallen kingdom.</p>
+				<iframe class="preview-trailer" src="https://www.youtube.com/embed/AiEXHQ8I1Os" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<a href="http://anilibrary/anime%20page/anime.php"><p class="read-more-btn">More</p></a>
+			</div>
 	</script>
+		
+	
+
+	
+	<script src="../js/common-comands.js"></script>
+	<script src="../js/seasons.js"></script>
+	<script src="js/handlebars-v4.7.6.js"></script>
 </body>
 </html>
